@@ -1,8 +1,5 @@
 # 🚀 Spike Bootstrap Admin Dashboard 🚀
 
->
-> BINTANG 5 NYA KAKA ✨
->
 
 <div align="center">
     <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/09/spike-bootstrap-admin-dashboard-prev-img.jpg" alt="Spike Logo">
@@ -11,6 +8,8 @@
 [DEMO HERE ✨](https://ifulxploit.github.io/Spike-Bootstrap-Admin-Dashboard)
 
 > Dokumentasi nyusul, kalo reponya rame 🙏
+
+### JANGAN LUPA BINTANG 5 NYA KAKA ✨
 
 ## Description 
 
