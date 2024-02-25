@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-bs-theme="light" data-color-theme="Blue_Theme" data-layout="vertical"
+  data-boxed-layout="boxed">
+<head>
+  <!-- Required meta tags -->
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!-- Favicon icon-->
+<link
+  rel="shortcut icon"
+  type="image/png"
+  href="../assets/images/logos/favicon.png"
+/>
+
+<!-- Core Css -->
+<link rel="stylesheet" href="../assets/css/styles.css" />
+
+  <title>Spike Bootstrap Admin</title>
+
+  <link rel="stylesheet" href="../assets/libs/prismjs/themes/prism-okaidia.min.css" />
+</head>
+<body>
+  <!-- ============================================================== -->
+  <!-- Main wrapper - style you can find in pages.scss -->
+  <!-- ============================================================== -->
+  <div id="main-wrapper">
+    <!-- ============================================================== -->
+    <!-- End Topbar header -->
+    <!-- ============================================================== -->
+    <!-- ============================================================== -->
+    <!-- Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <!--Desktop view sidebar menu-->
+    <aside class="left-sidebar with-vertical">
+      <!-- Sidebar scroll-->
+<!-- ============================================================== -->
+<!-- Logo -->
+<!-- ============================================================== -->
+<div class="navbar-brand brand-logo d-flex align-items-center justify-content-between px-4">
+  <a href="../docs/index.html" class="text-nowrap logo-img">
+    <img src="../assets/images/logos/logo-light.svg" class="dark-logo" alt="Logo-Dark" />
+  </a>
+  <a href="javascript:void(0)" class="sidebartoggler ms-auto text-decoration-none fs-5 d-block d-xl-none">
+    <i class="ti ti-x"></i>
+  </a>
+</div>
+<!-- ============================================================== -->
+<!-- End Logo -->
+<!-- ============================================================== -->
+<div class="scroll-sidebar" style="height: calc(100% - 70px);" data-simplebar>
+  <!-- Sidebar navigation-->
+  <nav class="sidebar-nav">
+    <ul id="sidebarnav" class="mt-4">
+      <!--Getting Started-->
+      <li class="nav-small-cap">
+        <span class="hide-menu">Getting Started</span>
+      </li>
+      <li class="sidebar-item">
+        <a class="nav-link sidebar-link primary-hover-bg d-flex align-items-center"
+          href="../docs/index.html"><span class="aside-icon p-2 bg-primary-subtle rounded-1">
+            <iconify-icon icon="solar:home-line-duotone" class="fs-6"></iconify-icon>
+          </span> <span class="hide-menu ps-1">Introduction</span></a>
+      </li>
+      <li class="sidebar-item">
+        <a class="nav-link sidebar-link success-hover-bg d-flex align-items-center"
+          href="../docs/docs-structure.html"><span class="aside-icon p-2 bg-success-subtle rounded-1">
+            <iconify-icon icon="solar:box-line-duotone" class="fs-6"></iconify-icon>
+          </span> <span class="hide-menu ps-1">Package Structure</span></a>
+      </li>
+      <li class="sidebar-item">
+        <a class="nav-link sidebar-link warning-hover-bg d-flex align-items-center"
+          href="../docs/docs-start.html"><span class="aside-icon p-2 bg-warning-hover-bg-subtle rounded-1">
+            <iconify-icon icon="solar:branching-paths-down-line-duotone" class="fs-6"></iconify-icon>
+          </span> <span class="hide-menu ps-1">Quick Start</span></a>
+      </li>
+      <!--CUSTOMIZATION-->
+      <li class="nav-small-cap">
+        <span class="hide-menu">CUSTOMIZATION</span>
+      </li>
+      <li class="sidebar-item">
+        <a class="nav-link sidebar-link danger-hover-bg d-flex align-items-center"
+          href="../docs/docs-layout.html"><span class="aside-icon p-2 bg-danger-subtle rounded-1">
+            <iconify-icon icon="solar:tablet-line-duotone" class="fs-6"></iconify-icon>
+          </span> <span class="hide-menu ps-1">Layout Options</span></a>
+      </li>
+      <li class="sidebar-item">
+        <a class="nav-link sidebar-link indigo-hover-bg d-flex align-items-center"
+          href="../docs/docs-change-logo.html"><span class="aside-icon p-2 bg-indigo-subtle rounded-1">
+            <iconify-icon icon="solar:tuning-4-linear" class="fs-6"></iconify-icon>
+          </span> <span class="hide-menu ps-1">Change Logo</span></a>
+      </li>
+      <li class="sidebar-item">
+        <a class="nav-link sidebar-link primary-hover-bg d-flex align-items-center"
+          href="../docs/docs-changes-skin-color.html"><span class="aside-icon p-2 bg-primary-subtle rounded-1">
+            <iconify-icon icon="solar:pallete-2-line-duotone" class="fs-6"></iconify-icon>
+          </span> <span class="hide-menu ps-1">Global Skin Color</span></a>
+      </li>
+
+      <!--Theme UI-->
+      <li class="nav-small-cap mt-4">
+        <span class="hide-menu">THEME UI</span>
+      </li>
+      <li class="sidebar-item">
+        <a class="sidebar-link has-arrow success-hover-bg" href="#" aria-expanded="false">
+          <span class="aside-icon p-2 bg-success-hover-bg-subtle rounded-1">
+            <iconify-icon icon="solar:file-text-line-duotone" class="fs-6"></iconify-icon>
+          </span>
+          <span class="hide-menu ps-1">Project Configuration</span>
+        </a>
+        <ul aria-expanded="false" class="collapse first-level">
+          <li class="sidebar-item">
+            <a href="../docs/docs-color.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Color</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-typography.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Typography</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-icon.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Icons</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <!--UI COMPONENTS-->
+      <li class="nav-small-cap mt-4">
+        <span class="hide-menu">UI COMPONENTS</span>
+      </li>
+      <li class="sidebar-item">
+        <a class="sidebar-link has-arrow warning-hover-bg" href="#" aria-expanded="false">
+          <span class="aside-icon p-2 bg-warning-subtle rounded-1">
+            <iconify-icon icon="solar:widget-6-linear" class="fs-6"></iconify-icon>
+          </span>
+          <span class="hide-menu ps-1">Bootstrap</span>
+        </a>
+        <ul aria-expanded="false" class="collapse first-level">
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-buttons.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Buttons</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-modals.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Modals</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-tabs.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Tabs</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-tooltip-popover.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Tooltip & Popover</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-notification.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Notifications</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-progressbar.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Progressbar</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-typography.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Typography</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-bootstrapui.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Bootstrap UI</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-breadcrumb.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Breadcrumbs</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-listmedia.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">List Media</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-grid.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Grids</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-carousel.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Carousel</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-scrollspy.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Scrollspy</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-toasts.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Toasts</span>
+            </a>
+          </li>
+          <li class="sidebar-item">
+            <a href="../docs/docs-ui-spinner.html" class="sidebar-link">
+              <span class="sidebar-icon"></span>
+              <span class="hide-menu">Spinner</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <!--Support-->
+      <li class="nav-small-cap mt-4">
+        <span class="hide-menu">SUPPORT</span>
+      </li>
+      <li class="sidebar-item">
+        <a class="nav-link sidebar-link danger-hover-bg d-flex align-items-center"
+          href="../docs/docs-change-log.html"><span class="aside-icon p-2 bg-danger-hover-bg-subtle rounded-1">
+            <iconify-icon icon="solar:refresh-circle-line-duotone" class="fs-6"></iconify-icon>
+          </span> <span class="hide-menu ps-1">Changelog</span></a>
+      </li>
+    </ul>
+  </nav>
+  <!-- End Sidebar navigation -->
+</div>
+<!-- End Sidebar scroll-->
+    </aside>
+
+    <!-- ============================================================== -->
+    <!-- End Left Sidebar - style you can find in sidebar.scss  -->
+    <!-- ============================================================== -->
+    <div class="page-wrapper">
+      <!-- ============================================================== -->
+      <!-- Topbar header - style you can find in pages.scss -->
+      <!-- ============================================================== -->
+      <header class="topbar position-relative topbar-docs">
+        <div class="navbar navbar-header d-flex align-items-center justify-content-between p-3 fixed-top">
+          <!-- ============================================================== -->
+          <!-- Toggle which is visible on mobile only -->
+          <!-- ============================================================== -->
+          <!-- Logo icon -->
+          <a href="index.html">
+            <b class="logo-icon d-xl-none d-block">
+              <img src="../assets/images/logos/logo-light.svg" class="dark-logo" alt="Logo-Dark" />
+            </b>
+            <!--End Logo icon -->
+          </a>
+          <div class="d-flex align-items-center">
+            <!---Mobile view canvas button--->
+            <a class="fs-8 text-muted d-xl-none d-block sidebartoggler" href="javascript:void(0)" role="button">
+              <i class="ti ti-menu-2"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <!-- ============================================================== -->
+      <!-- Page wrapper  -->
+      <!-- ============================================================== -->
+      <div class="body-wrapper" data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true"
+        tabindex="0">
+        <!-- ============================================================== -->
+        <!-- Container fluid  -->
+        <!-- ============================================================== -->
+        <div class="container-fluid mt-4">
+          <div class="mt-5">
+            <!-- ============================================================== -->
+            <!-- Start Page Content -->
+            <!-- ============================================================== -->
+            <h5 class="mt-4 lh-base">
+              Spike is meticulously crafted using the highly acclaimed Bootstrap framework, ensuring a foundation of
+              robust and responsive design principles. The Spike Bootstrap Dashboard offers an extensive array of
+              pre-built page templates, featuring three impressive dashboard variations, tables, charts, form examples,
+              and much more.<br /><br />
+              <p>This dashboard is specifically built with Bootstrap 5, the latest version of the framework, embracing
+                modern web development standards. To further facilitate your project development, we've thoughtfully
+                included a Figma File, allowing for seamless integration and extension of your design endeavors.</p>
+              <p>Spike Bootstrap Dashboard is designed to be effortlessly deployable, providing a ready-to-use
+                solution that can be tailored to meet your unique requirements. The flexibility extends to
+                customization, and users with proficiency in Bootstrap, CSS, and HTML can easily modify and adapt these
+                templates to suit their individual needs.</p>
+              <p>
+                For any assistance or support, we are committed to providing the necessary guidance to ensure a smooth
+                and successful implementation of Spike in your projects.</p>
+              </h4>
+
+              <h3 class="mt-5">Support</h3>
+              <div class="mt-4">
+                <h5 class="font-weight-normal text-muted lh-base">
+                  Prior to creating a <a href="https://support.wrappixel.com/">ticket</a>, ensure that your inquiry
+                  pertains specifically to support-related matters
+                  and not customization. Additionally, we encourage you to thoroughly review our comprehensive
+                  documentation to verify that your question or reported bug hasn't been addressed therein.<br /><br />
+
+                  Our dedicated support team is committed to promptly addressing your support-related queries, ensuring
+                  a seamless experience as you navigate and utilize our templates.<br /><br />
+
+                  Wrappixel.com is pleased to provide cost-effective customization services tailored to our templates.
+                  If you require customization work, kindly submit a ticket through our support platform at
+                  <a href="https://support.wrappixel.com/">support.wrappixel.com/</a><br /><br />
+                </h5>
+
+                <div class="card mt-4">
+                  <div class="card-body">
+                    <h4 class="">Includes</h4>
+                    <ul class="mb-0">
+                      <li class="font-16 py-1 text-muted">
+                        Answering your questions or problems regarding the
+                        template.
+                      </li>
+                      <li class="font-16 py-1 text-muted">
+                        Giving solution to the Bugs reported.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card mt-4">
+                  <div class="card-body">
+                    <h4 class="">Does not Includes</h4>
+                    <ul class="mb-0">
+                      <li class="font-16 py-1 text-muted">
+                        Customization Work
+                      </li>
+                      <li class="font-16 py-1 text-muted">
+                        Any Installation Work
+                      </li>
+                      <li class="font-16 py-1 text-muted">
+                        Support for any Third Party Plugins / Software
+                      </li>
+                      <li class="font-16 py-1 text-muted">
+                        Support or Guide for How to integrate with any
+                        technologies (like, PHP, .net, Java etc)
+                      </li>
+                      <li class="font-16 pt-1 text-muted">
+                        Solve bug in your implemented template
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- End Container fluid  -->
+        <!-- ============================================================== -->
+      </div>
+      <!-- ============================================================== -->
+      <!-- End Page wrapper  -->
+      <!-- ============================================================== -->
+    </div>
+    <div class="dark-transparent sidebartoggler"></div>
+  </div>
+  <!-- ============================================================== -->
+  <!-- End Wrapper -->
+  <!-- ============================================================== -->
+  <!-- End Page -->
+  <!-- ============================================================== -->
+  <!-- All Jquery -->
+  <!-- ============================================================== -->
+  <script src="../assets/libs/simplebar/dist/simplebar.min.js"></script>
+<script src="../assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../assets/js/theme/sidebarmenu.js"></script>
+
+<!-- solar icons -->
+<script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+
+<script>
+  function handleSidebar() {
+    document.querySelectorAll(".sidebartoggler").forEach(function (element) {
+      element.addEventListener("click", function () {
+        document.querySelectorAll(".sidebartoggler").forEach(function (el) {
+          el.checked = true;
+        });
+        document
+          .getElementById("main-wrapper")
+          .classList.toggle("show-sidebar");
+        document.querySelectorAll(".sidebarmenu").forEach(function (el) {
+          el.classList.toggle("close");
+        });
+        var dataTheme = document.body.getAttribute("data-sidebartype");
+        if (dataTheme === "full") {
+          document.body.setAttribute("data-sidebartype", "mini-sidebar");
+        } else {
+          document.body.setAttribute("data-sidebartype", "full");
+        }
+      });
+    });
+  }
+
+  // =================================
+  // Fixed header
+  // =================================
+  window.addEventListener("scroll", function () {
+    var topbar = document.querySelector(".topbar");
+    if (topbar) {
+      if (window.scrollY >= 60) {
+        topbar.classList.add("shadow-sm");
+      } else {
+        topbar.classList.remove("shadow-sm");
+      }
+    }
+  });
+
+  handleSidebar();
+</script>
+
+  <script src="../assets/libs/prismjs/prism.js"></script>
+  <!-- End JS -->
+</body>
+</html>
