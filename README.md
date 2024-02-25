@@ -5,7 +5,7 @@
     <img src="https://www.wrappixel.com/wp-content/uploads/edd/2023/09/spike-bootstrap-admin-dashboard-prev-img.jpg" alt="Spike Logo">
 </div>
 
-[DEMO HERE ✨](https://ifulxploit.github.io/Spike-Bootstrap-Admin-Dashboard)
+[DEMO HERE ✨](https://ifulxploit.github.io/Spike-Bootstrap-Admin-Dashboard/dark/)
 
 > Dokumentasi nyusul, kalo reponya rame 🙏
 
